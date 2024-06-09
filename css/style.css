@@ -1,0 +1,88 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/* Modificação do  header*/
+header{
+    display: flex;
+    justify-content: end;
+}
+header .header-opçoes, i, button{
+    margin: 20px;
+}
+.login{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #4387fd;
+    background-color: #4387fd;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 10px 10px;
+}
+.login:hover{
+    background-color: #4683ea;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    background-color: #fff;
+    text-decoration: underline;
+}
+/* Modificação no Main */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+textarea{
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+main a{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    margin: 10px;
+    color: #333;
+    padding: 10px;
+}
+main a:hover{
+    background-color: #f8f9fa;
+    border: 1px solid #aaa;
+    text-decoration: none;
+}
+/* Modificação no Footer */
+footer{
+    margin-top: 290px;
+    background-color: #ecedee;
+}
+p{
+    margin: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #ddd;
+}
+.priv{
+    margin-left: 750px;
+}
+.footer a{
+    background-color: #ecedee;
+}
