@@ -1,4 +1,4 @@
-# Projeto Recriando Goglle
+# Projeto Recriando Google
 ## Descrição: 
 Esse é um simples projeto em que eu criei. Recriei a página de pesquisa do Google.
 ## Conteúdo:
